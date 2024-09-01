@@ -3,24 +3,31 @@ h3 {
 }
 
 img {
-    width: 80%;
+    width: 95%;
     
 }
-.container{
-    max-width: 1980px ;
+.main{
     margin: 0 auto;
+    display: flex;
+    max-width: 1300px ;
+    
+    
 }
 
 
 .menu{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
     list-style-type: none;
     border-bottom: 2px solid gray;
 }
 
 .menu__item{
+    padding-bottom: 20px;
     cursor: pointer;
+    font-family: Roboto;
+    font-weight: 300;
 
 }
 
@@ -32,6 +39,16 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sidebar{
+    outline: 1px solid red;
+    width: 300px;
+}
+
+.content{
+    outline: 1px solid rgb(30, 174, 5);
+    width: 1000px;
 }
 
 

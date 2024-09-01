@@ -30,6 +30,9 @@ function showImage (e){
         case 'экзамен задание':
             mainImg.src = 'img/экзамен.jpg';
             break
+        case 'окно 2,4 мм толщина 0,5мм':
+            mainImg.src = 'img/окно 2,4 мм толщина 0,5мм-min.jpg';
+            break
         default:
             break
       }
